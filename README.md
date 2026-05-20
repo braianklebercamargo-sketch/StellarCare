@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# StellarCare 🏥
 
-# Run and deploy your AI Studio app
+Um sistema avançado de Sistematização da Assistência de Enfermagem (SAE) e Prontuário Eletrônico do Paciente (PEP). Focado em fornecer monitoramento clínico em tempo real e evoluções de enfermagem estruturadas e seguras.
 
-This contains everything you need to run your app locally.
+## 🚀 Funcionalidades
 
-View your app in AI Studio: https://ai.studio/apps/3e521a59-38ca-46d7-84d4-f86adff406e4
+- **Monitoramento Clínico**: Acompanhe os sinais vitais dos pacientes em tempo real em um dashboard intuitivo, com gráficos históricos e status unificado.
+- **Evolução de Enfermagem Estruturada**: Formulário automatizado para preenchimento ágil de parâmetros vitais, controles, ações de intervenção (curativos, medicação) e anotações abertas.
+- **Inteligência Assistencial**: Simulação de um motor inteligente que avalia parâmetros (febre, hipotermia, queda de saturação, dor) fornecendo alertas proativos e protocolos de conduta imediatos.
+- **Assinatura Eletrônica e Auditoria**: Cada evolução assistencial assinada digitalmente gera um registro com timestamp e simulação de hash SHA256 criptográfico, garantindo imutabilidade para rastreabilidade de auditoria.
+- **Modo Escuro (Dark Mode)**: Tema cuidadosamente planejado com alta legibilidade (Dark Slate & Teal) voltado para uso noturno seguro em unidades de internação.
 
-## Run Locally
+## 🛠️ Tecnologias Utilizadas
 
-**Prerequisites:**  Node.js
+- **Frontend**: React 18, Vite, Typecript e Tailwind CSS com utilitários avançados de responsividade.
+- **Gráficos**: Recharts para plotagem de sinais vitais.
+- **Design/UI**: Telas modernas com bordas responsivas, cantos arredondados, fontes padronizadas ("Inter" para UI, "JetBrains Mono" para métricas clínicas) e iconografia via Lucide-React.
 
+## 📦 Como Executar
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Clone o repositório
+2. Instale as dependências com `npm install`
+3. Execute o servidor de desenvolvimento com `npm run dev`
+4. Acesse o IP gerado na porta padrão via navegador.
+
+## 🛡️ Segurança
+
+Foi projetado tendo em mente as normas contemporâneas do COFEN para garantia técnica da anotação, prevenindo adulterações retrospectivas.

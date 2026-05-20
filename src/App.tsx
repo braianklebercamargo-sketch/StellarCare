@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Layout } from "./components/Layout";
 import { Dashboard } from "./components/Dashboard";
 import { EvolutionForm } from "./components/EvolutionForm";
@@ -31,19 +31,6 @@ export default function App() {
   const [currentView, setCurrentView] = useState<ViewState>("landing");
   const [patients, setPatients] = useState<Patient[]>(initialPatients);
   const [metrics, setMetrics] = useState<Record<string, MetricPoint[]>>(initialMetrics);
-  const [theme, setTheme] = useState<'light'|'dark'>('light');
-
-  useEffect(() => {
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [theme]);
-
-  const toggleTheme = () => {
-    setTheme(t => t === 'light' ? 'dark' : 'light');
-  };
 
   const handleAddPatient = (patient: Patient) => {
     setPatients([...patients, patient]);
@@ -60,11 +47,11 @@ export default function App() {
   };
 
   if (currentView === "landing") {
-    return <LandingPage onEnter={setCurrentView} theme={theme} toggleTheme={toggleTheme} />;
+    return <LandingPage onEnter={setCurrentView} />;
   }
 
   return (
-    <Layout currentView={currentView} setView={setCurrentView} theme={theme} toggleTheme={toggleTheme}>
+    <Layout currentView={currentView} setView={setCurrentView}>
       {currentView === "dashboard" && <Dashboard patients={patients} metricsByPatient={metrics} />}
       {currentView === "register" && <PatientRegistration onRegister={handleAddPatient} />}
       {currentView === "evolution" && <EvolutionForm patients={patients} onSign={handleAddEvolution} />}

@@ -1,0 +1,41 @@
+{
+  "paciente": {
+    "id": "PAC-2026-001",
+    "nome": "Carlos Almeida",
+    "idade": 68,
+    "diagnostico_inicial": "Pneumonia Adquirida na Comunidade (PAC)",
+    "data_admissao": "2026-04-21"
+  },
+  "evolucao_clinica": [
+    { "dia": 1, "data": "2026-04-21", "temperatura": 39.2, "fc": 112, "spo2": 88, "observacao": "Admissão. Quadro agudo, dispneia. Início de antibioticoterapia." },
+    { "dia": 2, "data": "2026-04-22", "temperatura": 38.9, "fc": 108, "spo2": 89, "observacao": "Pico febril mantido. Suporte de O2." },
+    { "dia": 3, "data": "2026-04-23", "temperatura": 38.5, "fc": 105, "spo2": 90, "observacao": "Leve melhora clínica, mantido esquema ATB." },
+    { "dia": 4, "data": "2026-04-24", "temperatura": 38.0, "fc": 100, "spo2": 92, "observacao": "Desmame parcial de O2." },
+    { "dia": 5, "data": "2026-04-25", "temperatura": 37.7, "fc": 95, "spo2": 93, "observacao": "Paciente mais comunicativo, febre cedendo." },
+    { "dia": 6, "data": "2026-04-26", "temperatura": 37.5, "fc": 92, "spo2": 94, "observacao": "Evolução favorável." },
+    { "dia": 7, "data": "2026-04-27", "temperatura": 37.2, "fc": 88, "spo2": 95, "observacao": "Afebril há 24h. Suspenso O2 suplementar." },
+    { "dia": 8, "data": "2026-04-28", "temperatura": 36.8, "fc": 85, "spo2": 95, "observacao": "Boa aceitação da dieta oral." },
+    { "dia": 9, "data": "2026-04-29", "temperatura": 36.7, "fc": 82, "spo2": 96, "observacao": "Estável. Fisioterapia respiratória iniciada." },
+    { "dia": 10, "data": "2026-04-30", "temperatura": 36.6, "fc": 80, "spo2": 96, "observacao": "Término do ciclo principal de ATB endovenoso." },
+    { "dia": 11, "data": "2026-05-01", "temperatura": 36.5, "fc": 78, "spo2": 97, "observacao": "Transição para medicação via oral." },
+    { "dia": 12, "data": "2026-05-02", "temperatura": 36.6, "fc": 76, "spo2": 97, "observacao": "Deambulando pelo quarto." },
+    { "dia": 13, "data": "2026-05-03", "temperatura": 36.5, "fc": 75, "spo2": 97, "observacao": "Exames laboratoriais de controle com melhora importante." },
+    { "dia": 14, "data": "2026-05-04", "temperatura": 36.4, "fc": 74, "spo2": 98, "observacao": "Critérios de alta hospitalar atingidos." },
+    { "dia": 15, "data": "2026-05-05", "temperatura": 36.5, "fc": 74, "spo2": 98, "observacao": "Alta hospitalar. Início do monitoramento domiciliar." },
+    { "dia": 16, "data": "2026-05-06", "temperatura": 36.5, "fc": 72, "spo2": 98, "observacao": "Monitoramento domiciliar: Paciente relata boa noite de sono." },
+    { "dia": 17, "data": "2026-05-07", "temperatura": 36.6, "fc": 72, "spo2": 98, "observacao": "Monitoramento domiciliar: Sem queixas." },
+    { "dia": 18, "data": "2026-05-08", "temperatura": 36.4, "fc": 70, "spo2": 98, "observacao": "Monitoramento domiciliar: Tosse residual leve." },
+    { "dia": 19, "data": "2026-05-09", "temperatura": 36.5, "fc": 71, "spo2": 99, "observacao": "Monitoramento domiciliar: Estável." },
+    { "dia": 20, "data": "2026-05-10", "temperatura": 36.5, "fc": 70, "spo2": 99, "observacao": "Monitoramento domiciliar: Alimentação normalizada." },
+    { "dia": 21, "data": "2026-05-11", "temperatura": 36.6, "fc": 72, "spo2": 98, "observacao": "Retorno ambulatorial (Telemedicina). Avaliação positiva." },
+    { "dia": 22, "data": "2026-05-12", "temperatura": 36.4, "fc": 68, "spo2": 99, "observacao": "Monitoramento domiciliar: Sem alterações." },
+    { "dia": 23, "data": "2026-05-13", "temperatura": 36.5, "fc": 69, "spo2": 99, "observacao": "Monitoramento domiciliar: Caminhadas curtas iniciadas." },
+    { "dia": 24, "data": "2026-05-14", "temperatura": 36.6, "fc": 70, "spo2": 98, "observacao": "Monitoramento domiciliar: Tolerância ao exercício melhorando." },
+    { "dia": 25, "data": "2026-05-15", "temperatura": 36.5, "fc": 68, "spo2": 99, "observacao": "Monitoramento domiciliar: Estável." },
+    { "dia": 26, "data": "2026-05-16", "temperatura": 36.4, "fc": 66, "spo2": 99, "observacao": "Monitoramento domiciliar: Sem queixas respiratórias." },
+    { "dia": 27, "data": "2026-05-17", "temperatura": 36.5, "fc": 65, "spo2": 99, "observacao": "Monitoramento domiciliar: Sinais vitais em níveis basais." },
+    { "dia": 28, "data": "2026-05-18", "temperatura": 36.6, "fc": 66, "spo2": 99, "observacao": "Monitoramento domiciliar: Estável." },
+    { "dia": 29, "data": "2026-05-19", "temperatura": 36.5, "fc": 65, "spo2": 99, "observacao": "Monitoramento domiciliar: Fim do período de observação aguda." },
+    { "dia": 30, "data": "2026-05-20", "temperatura": 36.5, "fc": 64, "spo2": 99, "observacao": "Alta definitiva do acompanhamento estrito. Paciente recuperado." }
+  ]
+}
